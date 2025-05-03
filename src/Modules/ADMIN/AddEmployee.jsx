@@ -15,8 +15,6 @@ function AddEmployee()
 //         reset();
 
 //   })
-
-
 function onRegister(data){
   const UserDetails={
   uid:data.uid,
