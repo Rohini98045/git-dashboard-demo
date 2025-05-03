@@ -23,6 +23,7 @@ setValue('usertype',usertype);
        password:data.password,
        usertype:data.usertype,
        }
+       
        const formData=new FormData();
        formData.append("empjson",JSON.stringify(employeeDetails));
        formData.append("image",data.image[0]);
